@@ -17,12 +17,12 @@ class Subscription extends \Magento\Framework\Model\AbstractModel
     /**
      * Subscription URL
      */
-    const SUBSCRIPTION_URL = 'http://billing.shopgo.me/merchant/login';
+    const SUBSCRIPTION_URL = 'https://billing.shopgo.me/merchant/login';
 
     /**
      * Subscription token request URL
      */
-    const SUBSCRIPTION_TOKEN_URL = 'http://billing.shopgo.me/authenticate/request-token';
+    const SUBSCRIPTION_TOKEN_URL = 'https://billing.shopgo.me/authenticate/request-token';
 
     /**
      * Admin user (store owner) xml path
